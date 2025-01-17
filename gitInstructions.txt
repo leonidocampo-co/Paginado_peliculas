@@ -1,0 +1,10 @@
+***git instructions to load the document into git repository.*****
+
+1. git status : muestra el esstado actual de nuestro repositorio
+2. git add . : agrega todos los archivos nuevos, esto puede ser 
+una mala practica, generalmente se sube el archivo que se modifica
+    ***OJO***
+    usa "git rm --cached <archivo>..." para sacar del área de stage)
+
+3. git commit -m "texto explicando los cambios"
+4.git remote add origin (url del repo)
